@@ -25,4 +25,4 @@ jobs:
 
       - name: Enviar requisição para a API
         run: |
-          python -c "import requests; requests.get('https://<seu-subdominio>.onrender.com/data-hora', timeout=10); print('API pingada com sucesso!');"
+          python -c "import requests; requests.get('https://api-data-hora-python.onrender.com/data-hora', timeout=10); print('API pingada com sucesso!');"
