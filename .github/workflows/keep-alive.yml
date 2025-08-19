@@ -4,6 +4,9 @@ on:
   schedule:
     # A cada 10 minutos
     - cron: '*/10 * * * *'
+  
+  # Gatilho para execução manual
+  workflow_dispatch:
 
 jobs:
   ping-api:
