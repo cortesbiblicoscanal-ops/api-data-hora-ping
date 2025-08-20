@@ -3,7 +3,7 @@ name: Keep API Alive
 on:
   schedule:
     # A cada 10 minutos
-    - cron: '*/10 * * * *'
+    - cron: '*/8 * * * *'
   
   # Gatilho para execução manual
   workflow_dispatch:
